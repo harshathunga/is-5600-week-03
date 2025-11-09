@@ -79,7 +79,7 @@ function respondSSE(req, res) {
   });
 }
 
-app.use(respondNotFound)
+
 
 app.get('/', chatApp);
 app.get('/json', respondJson);
